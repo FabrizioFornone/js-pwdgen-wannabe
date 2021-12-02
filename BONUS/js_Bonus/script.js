@@ -1,13 +1,13 @@
-// Dichiarazione delle variabili
+// Dichiarazione delle costanti
 
-function Area() {
-    let b=document.getElementById("base").value;
+const firstquestion = prompt('Come si chiama il creatore della Webpage?');
 
-    let h=document.getElementById("height").value;
+const secondquestion = prompt("Come lo definiresti?");
 
-    let A=b*h;
+// Assegno la variabile answer4you ad #output
 
-    console.log('A')
+let answer4you = document.getElementById("output");
 
-    document.getElementById("area").value = "L'area del rettangolo è: " + A;
-    }
+// Stampo in pagina
+
+answer4you.innerHTML = `Lo sai che ${firstquestion} è un grandissimo ${secondquestion}?;
