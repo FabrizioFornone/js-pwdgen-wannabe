@@ -1,9 +1,13 @@
 // Dichiarazione delle variabili
 
-let b = document.getElementById('base').value;
+function Area() {
+    let b=document.getElementById("base").value;
 
-let h = document.getElementById('height').value;
+    let h=document.getElementById("height").value;
 
-let A = b * h;
+    let A=b*h;
 
-document.getElementById('area').value = "The Area of the rectangle is" + A;
+    console.log('A')
+
+    document.getElementById("area").value = "L'area del rettangolo è: " + A;
+    }
