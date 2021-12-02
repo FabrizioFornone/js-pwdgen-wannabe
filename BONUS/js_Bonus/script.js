@@ -10,4 +10,4 @@ let answer4you = document.getElementById("output");
 
 // Stampo in pagina
 
-answer4you.innerHTML = `Lo sai che ${firstquestion} è un grandissimo ${secondquestion}?;
+answer4you.innerHTML = `Lo sai che ${firstquestion} è un grandissimo ${secondquestion}?`;
