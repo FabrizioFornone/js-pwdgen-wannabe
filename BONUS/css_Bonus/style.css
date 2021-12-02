@@ -1,0 +1,30 @@
+body {
+    font-family: Helvetica, Sans-Serif;
+    background-color: whitesmoke;
+}
+
+
+header h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+    color: #fbd601;
+}
+
+.container {
+    height: 100vh;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fbd601;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.btn {
+    background-color: #c0c0c0;
+    padding: 2px 5px;
+}
